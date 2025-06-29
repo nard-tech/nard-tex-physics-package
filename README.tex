@@ -1,0 +1,104 @@
+\documentclass[oneside,10pt,a4paper]{jsarticle}
+
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{graphicx,color}
+
+\usepackage{commands/physics_headers_ja}
+
+\title{nard-tex-physics-package}
+\author{Fujita Shu}
+
+\begin{document}
+  \maketitle
+
+  \section{physics\_headers\_ja}
+
+  \verb|physics_headers_ja| パッケージを読み込むと、以下のような物理の教科書の見出しのコマンドを使うことができる。
+
+  \begin{itemize}
+    \item \verb|\Principle|
+      \begin{itemize}
+        \item 引数なし (\verb|\Principle|)
+          \begin{quote}
+            \Principle
+          \end{quote}
+        \item \verb|<>| で囲った引数あり (\verb|\Principle<1>|)
+          \begin{quote}
+            \Principle<1>
+          \end{quote}
+        \item \verb|[]| で囲った引数あり (\verb|\Principle[アルキメデスの原理]|)
+          \begin{quote}
+            \Principle[アルキメデスの原理]
+          \end{quote}
+        \item \verb|<>| で囲った引数、\verb|[]| で囲った引数あり (\verb|\Principle<1>[アルキメデスの原理]|)
+          \begin{quote}
+            \Principle<1>[アルキメデスの原理]
+          \end{quote}
+        %
+      \end{itemize}
+    \item \verb|\Theory|
+      \begin{itemize}
+        \item 引数なし (\verb|\Theory|)
+          \begin{quote}
+            \Theory
+          \end{quote}
+        \item \verb|<>| で囲った引数あり (\verb|\Theory<2>|)
+          \begin{quote}
+            \Theory<2>
+          \end{quote}
+        \item \verb|[]| で囲った引数あり (\verb|\Theory[特殊相対性理論]|)
+          \begin{quote}
+            \Theory[特殊相対性理論]
+          \end{quote}
+        \item \verb|<>| で囲った引数、\verb|[]| で囲った引数あり (\verb|\Theory<2>[特殊相対性理論]|)
+          \begin{quote}
+            \Theory<2>[特殊相対性理論]
+          \end{quote}
+        %
+      \end{itemize}
+    %
+    \newpage
+    %
+    \item \verb|\Law|
+      \begin{itemize}
+        \item 引数なし (\verb|\Law|)
+          \begin{quote}
+            \Law
+          \end{quote}
+        \item \verb|<>| で囲った引数あり (\verb|\Law<3>|)
+          \begin{quote}
+            \Law<3>
+          \end{quote}
+        \item \verb|[]| で囲った引数あり (\verb|\Law[ケプラーの第二法則]|)
+          \begin{quote}
+            \Law[ケプラーの第二法則]
+          \end{quote}
+        \item \verb|<>| で囲った引数、\verb|[]| で囲った引数あり (\verb|\Law<3>[ケプラーの第二法則]|)
+          \begin{quote}
+            \Law<3>[ケプラーの第二法則]
+          \end{quote}
+        %
+      \end{itemize}
+    \item \verb|\Unit|
+      \begin{itemize}
+        \item 引数なし (\verb|\Unit|)
+          \begin{quote}
+            \Unit
+          \end{quote}
+        \item \verb|<>| で囲った引数あり (\verb|\Unit<4>|)
+          \begin{quote}
+            \Unit<4>
+          \end{quote}
+        \item \verb|[]| で囲った引数あり (\verb|\Unit[加速度]|)
+          \begin{quote}
+            \Unit[加速度]
+          \end{quote}
+        \item \verb|<>| で囲った引数、\verb|[]| で囲った引数あり (\verb|\Unit<4>[加速度]|)
+          \begin{quote}
+            \Unit<4>[加速度]
+          \end{quote}
+        %
+      \end{itemize}
+    %
+  \end{itemize}
+\end{document}
