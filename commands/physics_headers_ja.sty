@@ -11,7 +11,7 @@
   \textgt{%
     \colorbox[rgb]{0.67,1.00,0.85}{\,原理\,}%
     \ifthenelse{\equal{#1}{}}{}{\,\,\,\textsf{{#1}}} % if 第1引数（番号）について
-    \ifthenelse{\equal{#2}{}}{}{（{#2}）} % if 第2引数（内容）について
+    \ifthenelse{\equal{#2}{}}{}{#2} % if 第2引数（内容）について
   }
 }
 
@@ -20,7 +20,7 @@
   \textgt{%
     \colorbox[rgb]{0.67,1.00,0.85}{\,理論\,}%
     \ifthenelse{\equal{#1}{}}{}{\,\,\,\textsf{{#1}}} % if 第1引数（番号）について
-    \ifthenelse{\equal{#2}{}}{}{（{#2}）} % if 第2引数（内容）について
+    \ifthenelse{\equal{#2}{}}{}{#2} % if 第2引数（内容）について
   }
 }
 
@@ -29,7 +29,7 @@
   \textgt{%
     \colorbox[rgb]{0.67,1.00,0.85}{\,法則\,}%
     \ifthenelse{\equal{#1}{}}{}{\,\,\,\textsf{{#1}}} % if 第1引数（番号）について
-    \ifthenelse{\equal{#2}{}}{}{（{#2}）} % if 第2引数（内容）について
+    \ifthenelse{\equal{#2}{}}{}{#2} % if 第2引数（内容）について
   }
 }
 
@@ -38,6 +38,6 @@
   \textgt{%
     \colorbox[rgb]{0.67,1.00,0.85}{\,単位\,}%
     \ifthenelse{\equal{#1}{}}{}{\,\,\,\textsf{{#1}}} % if 第1引数（番号）について
-    \ifthenelse{\equal{#2}{}}{}{（{#2}）} % if 第2引数（内容）について
+    \ifthenelse{\equal{#2}{}}{}{#2} % if 第2引数（内容）について
   }
 }
